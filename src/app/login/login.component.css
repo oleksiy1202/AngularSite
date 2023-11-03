@@ -1,0 +1,133 @@
+section {
+    width: 100%;
+    height: 73vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+form {
+    margin: 20px 0;
+    padding: 30px 25px;
+    background-color: snow;
+    border-radius: 20px;
+}
+
+form .input-block {
+    margin: 20px;
+}
+
+form .input-block label {
+    font-size: 14px;
+    color: rgb(78, 75, 75);
+}
+
+form .input-block input {
+    width: 100%;
+    margin-top: 8px;
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 0.5px solid rgb(121, 118, 118);
+    outline-color: transparent;
+    color: rgb(78, 75, 75);
+    background-color: snow;
+}
+
+form .btn-login {
+    margin: auto;
+    padding: 10px;
+    min-width: 120px;
+    display: block;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(121, 118, 118);
+    color: white;
+    outline-color: transparent;
+}
+
+/* Animation */
+/*1- [x] Fazer o formulario aparecer suavemente quando a pagina abrir */
+
+form {
+    animation: move 1s ease-in-out;
+    overflow: hidden;
+}
+
+form .input-block:nth-child(1) {
+    animation: slideL 1.5s;
+    animation-delay: 600ms;
+    animation-fill-mode: backwards;
+}
+
+form .input-block:nth-child(2) {
+    animation: slideR 1.5s;
+    animation-delay: 600ms;
+    animation-fill-mode: backwards;
+}
+
+form .btn-login {
+    animation: slideUp 1s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+/* 2- Ca,pos aparecendo da direita para a esquerda */
+/* Chama o input da esq/dir */
+@keyframes slideL {
+    from {
+        transform: translateX(-300%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Chama o input da dir/esq */
+@keyframes slideR {
+    from {
+        transform: translateX(300%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* move o section da esq/dir vindo do 'nada' */
+@keyframes move {
+    0% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* chama o input de baixo/cima */
+@keyframes slideUp {
+    from {
+        transform: translateY(200px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* 3- Quando clicar no botao, sumir com o form */
+.form-hide {
+    animation: moveDown 500ms forwards;
+}
+
+@keyframes moveDown {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(100vh);
+    }
+}

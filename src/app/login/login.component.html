@@ -1,0 +1,25 @@
+<div *ngIf="condition">
+    <section class="form-section">
+        <div class="form-wrapper">
+            <h2 style="font-weight: bold;" class="text-center">Login</h2>
+            <form action="">
+                <div class="input-block">
+                    <label for="login-nick">Login</label>
+                    <input type="text" id="login-nick" [(ngModel)]="formLogin" name="login" autocomplete="on"
+                        placeholder="Введіть логін">
+                </div>
+                <div class="input-block">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" [(ngModel)]="formPassword" name="password"
+                        autocomplete="on" placeholder="Введіть свій пароль">
+                </div>
+                <button class="btn-login" type="button" (click)="submitBtn()">Login</button>
+            </form>
+        </div>
+    </section>
+</div>
+<div *ngIf="condition_content">
+    <h1 class="text-center">Привіт {{users.name[1]}}</h1>
+    <!-- List_card_admin -->
+    <app-list-card-admin></app-list-card-admin>
+</div>

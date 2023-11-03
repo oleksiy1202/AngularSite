@@ -1,0 +1,29 @@
+<!-- <h1 style="text-align: center;">Header</h1> -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand kayaksport_logo_style" routerLink="">{{firmName}}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link nav_focus" routerLink="/products">Продукти</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link nav_focus" routerLink="/routes">Маршрути</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link nav_focus" routerLink="/contacts">Контакти</a>
+                </li>
+                <li class="nav-item" style="border: 1px solid; border-radius: 5px;" routerLinkActive="active">
+                    <a class="nav-link nav_focus" routerLink="/trailer">Прицеп / Трейлер</a>
+                </li>
+            </ul>
+            <form class="d-flex p-4" role="search">
+                <button class="btn btn-primary" style="color: black;" routerLink="/login">Вхід</button>
+            </form>
+        </div>
+    </div>
+</nav>

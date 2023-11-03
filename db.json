@@ -1,0 +1,212 @@
+{
+  "kayaks": [
+    {
+      "id": 1,
+      "name": "Kayak Model X",
+      "producer": "KayakCo",
+      "year": 2023,
+      "price": 1200,
+      "color": "Blue",
+      "image": "https://connectkayaks.eu/wp-content/uploads/2021/09/POLO-K1-MODEL-X.png",
+      "type": "каяк",
+      "description": "cool Kayak"
+    },
+    {
+      "id": 2,
+      "name": "Kayak Model T",
+      "producer": "AdventureKayaks",
+      "year": 2022,
+      "price": 1500,
+      "color": "Red",
+      "image": "https://i.ebayimg.com/images/g/KqcAAOSwFLVkif1W/s-l1600.jpg",
+      "type": "каяк",
+      "description": "cool Kayak"
+    },
+    {
+      "id": 3,
+      "name": "Inflatable Kayak",
+      "producer": "AquaSports",
+      "year": 2023,
+      "price": 800,
+      "color": "Green",
+      "image": "https://m.media-amazon.com/images/I/61lm0cDhyYL._AC_UF1000,1000_QL80_.jpg",
+      "type": "каяк",
+      "description": "cool Kayak"
+    },
+    {
+      "id": 4,
+      "name": "Kayak Model",
+      "producer": "KayakCo",
+      "year": 2023,
+      "price": 1200,
+      "color": "Blue",
+      "image": "https://www.nain-boats.com/wp-content/uploads/2019/09/kayak-model-02.jpg",
+      "type": "каяк",
+      "description": "cool Kayak"
+    },
+    {
+      "id": 5,
+      "name": "Kayak Model Y",
+      "producer": "AdventureKayaks",
+      "year": 2022,
+      "price": 1500,
+      "color": "Red",
+      "image": "",
+      "type": "каяк",
+      "description": "cool Kayak"
+    },
+    {
+      "id": 6,
+      "name": "Inflatable Kayak",
+      "producer": "AquaSports",
+      "year": 2023,
+      "price": 800,
+      "color": "Green",
+      "image": "https://media.sketchfab.com/models/cda3354816af4a0aa1ca5cfee6c5dcd7/thumbnails/aaa7b199abe6440fa65598c2f6839d9b/e71c825b4b7c4f159a23fc6bf807c7d1.jpeg",
+      "type": "каяк",
+      "description": "cool Kayak"
+    },
+    {
+      "id": 7,
+      "name": "Oar Set 1",
+      "producer": "OarCraft",
+      "year": 2023,
+      "price": 250,
+      "color": "Brown",
+      "image": "https://m.media-amazon.com/images/I/71Say+d9KZL._AC_UF350,350_QL80_.jpg",
+      "type": "інше",
+      "description": "cool other"
+    },
+    {
+      "id": 8,
+      "name": "Oar Set 2",
+      "producer": "RiverPaddle",
+      "year": 2022,
+      "price": 280,
+      "color": "Black",
+      "image": "https://surfdeal.ch/media/7c/d1/13/1681714265/FIT%20OCEAN%202-in-1%20iSUP%20and%20Kayak%20Paddle%20%2B%20Kayak%20Sitz%20Deluxe.jpg",
+      "type": "інше",
+      "description": "cool other"
+    },
+    {
+      "id": 9,
+      "name": "Oar Set 3",
+      "producer": "StreamMasters",
+      "year": 2023,
+      "price": 220,
+      "color": "Blue",
+      "image": "https://aqua-storm.com.ua/image/cache/catalog/products/accessories/veslo-550x550.jpg",
+      "type": "інше",
+      "description": "cool other"
+    },
+    {
+      "id": 10,
+      "name": "Paddle Model A",
+      "producer": "PaddleTech",
+      "year": 2023,
+      "price": 150,
+      "color": "Black",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-483979182-1660076998.jpg",
+      "type": "весло",
+      "description": "cool oar"
+    },
+    {
+      "id": 11,
+      "name": "Paddle Model B",
+      "producer": "OutdoorGear",
+      "year": 2022,
+      "price": 120,
+      "color": "Yellow",
+      "image": "https://hyside.com/wp-content/uploads/LIMITED-EDITION-COLORS.jpg",
+      "type": "весло",
+      "description": "cool oar"
+    },
+    {
+      "name": "oleksiy",
+      "producer": "btdsvrts",
+      "year": 0,
+      "price": 0,
+      "color": "",
+      "image": "",
+      "type": "",
+      "description": "",
+      "id": 12
+    },
+    {
+      "name": "audi",
+      "producer": "eco",
+      "year": 206,
+      "price": 999,
+      "color": "red red red",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/84/37/a6/kayak-sup-hvar.jpg?w=1200&h=-1&s=1",
+      "type": "каяк",
+      "description": "cfegol,;p.['ip,;nkyujbyhvtgcrfxv ghjfhj,nubujvhcrgxts gdnmfghjgjfghfg dntdmjgfhfngbd fgnhjkxeafzxneicfdnhxumileksjc;nkhrmdijorkea,;scnoishguyferhd;imlleckvscp9sv75np8mr[xp'ao esuvron8i4ouer pg;itrvhcg/js;,f",
+      "id": 13
+    },
+    {
+      "name": "111",
+      "producer": "111",
+      "year": 111,
+      "price": 1111,
+      "color": "11111",
+      "image": "1111111111111111111111",
+      "type": "інше",
+      "description": "11111",
+      "id": 14
+    },
+    {
+      "name": "22222",
+      "producer": "222222",
+      "year": 2222222,
+      "price": 222222222222,
+      "color": "22222222",
+      "image": "22222222",
+      "type": "весло",
+      "description": "2222222222",
+      "id": 15
+    },
+    {
+      "name": "33333333",
+      "producer": "33333333",
+      "year": 33333333,
+      "price": 3333333333,
+      "color": "33333333",
+      "image": "33333333",
+      "type": "каяк",
+      "description": "3333333",
+      "id": 16
+    },
+    {
+      "name": "хуй його знає",
+      "producer": "хуй його знає",
+      "year": 0,
+      "price": 0,
+      "color": "хуй його знає",
+      "image": "data:image/jpeg;base64,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",
+      "type": "хуй його знає",
+      "description": "хуй його знає",
+      "id": 17
+    }
+  ],
+  "admin": [
+    {
+      "firmName": "kayaksport",
+      "name": [
+        "Сергій",
+        "Христина",
+        "Надія",
+        "Ігор"
+      ],
+      "email": "test_email",
+      "login": "",
+      "password": "",
+      "tel": [
+        "+38093-285-82-18",
+        "+38095-943-07-35",
+        "+38098-614-11-05",
+        "+38093-292-09-48"
+      ],
+      "type": "admin"
+    }
+  ]
+}

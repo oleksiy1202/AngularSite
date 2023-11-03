@@ -1,0 +1,18 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.kayaksport_logo_style {
+    text-decoration: none;
+    font-size: 4vh;
+    color: #000000;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    transition-duration: 0.2s;
+}

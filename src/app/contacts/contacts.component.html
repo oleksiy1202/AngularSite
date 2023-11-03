@@ -1,0 +1,33 @@
+<!-- <iframe title="Наша адреса"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.119394751595!2d6.7852076887749835!3d51.198451627730456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8ca5139f23075%3A0x910cb9b52a3e4a54!2zTW9vcmVuc3RyYcOfZSA1LCA0MDIyNSBEw7xzc2VsZG9yZiwg0JPQtdGA0LzQsNC90LjRjw!5e0!3m2!1sru!2sua!4v1516619149898"
+    width="100%" height="170" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+ -->
+
+
+
+<!-- <div class="footer-left-col2 col-lg-4 col-xs-12">
+    <div class="footer-block">
+        <div class="footer-block-title">Як нас знайти</div>
+        <iframe title="Наша адреса"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26413.60687522936!2d24.01815019546159!3d49.83203182224768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d7d2746f364f7%3A0x38051f8a8dd0043!2sLviv%2C%20Ukraine!5e0!3m2!1sen!2sua!4v1516619149898"
+            width="100%" height="170" frameborder="0" style="border:0" allowfullscreen="">
+        </iframe>
+    </div>
+</div> -->
+
+
+
+<div class="contact-container">
+    <h1 class="contact-title">Контакти</h1>
+    <div class="contact-info" *ngIf="adminData">
+        <h4>tel: {{ adminData[0]?.tel[0] }} - {{ adminData[0]?.name[0] }}</h4>
+        <h4>tel: {{ adminData[0]?.tel[1] }} - {{ adminData[0]?.name[1] }}</h4>
+        <h4>tel: {{ adminData[0]?.tel[2] }} - {{ adminData[0]?.name[2] }}</h4>
+        <h4>tel: {{ adminData[0]?.tel[3] }} - {{ adminData[0]?.name[3] }}</h4>
+    </div>
+    <h1 class="show-direction">
+        <a href="https://www.google.com/maps/dir//%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D0%B0%D0%BB%D0%BA%D0%B8,+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2%D1%8C%D0%B7%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+80411/@50.1866091,24.3825502,4540m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x47252e02786c2e47:0xa983040134f3beb6!2m2!1d24.3945408!2d50.1848365?authuser=0&entry=ttu"
+            target="_blank">Показати дорогу</a>
+    </h1>
+    <img src="assets/images_kayakSport/Perekalky.jpg" class="contact-image" alt="Перекалки">
+</div>

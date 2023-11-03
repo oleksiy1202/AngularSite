@@ -1,0 +1,25 @@
+.contact-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-title {
+    font-size: 24px;
+}
+
+.contact-info h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.show-direction a {
+    text-decoration: none;
+    color: blue;
+}
+
+.contact-image {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
