@@ -5,6 +5,7 @@ import { ContactsComponent } from './contacts/contacts.component'
 import { RoutesComponent } from './routes/routes.component'
 import { LoginComponent } from './login/login.component'
 import { TrailerComponent } from './trailer/trailer.component'
+import { NotFoundComponent } from './not-found/not-found.component'
 
 const routes: Routes = [
   { path: '', component: ProductsComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'contacts', component: ContactsComponent },
   { path: 'login', component: LoginComponent },
   { path: 'trailer', component: TrailerComponent },
+  { path: '**', component: NotFoundComponent }
 ]
 
 @NgModule({

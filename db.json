@@ -122,34 +122,12 @@
       "description": "cool oar"
     },
     {
-      "name": "oleksiy",
-      "producer": "btdsvrts",
-      "year": 0,
-      "price": 0,
-      "color": "",
-      "image": "",
-      "type": "",
-      "description": "",
-      "id": 12
-    },
-    {
-      "name": "audi",
-      "producer": "eco",
-      "year": 206,
-      "price": 999,
-      "color": "red red red",
-      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/84/37/a6/kayak-sup-hvar.jpg?w=1200&h=-1&s=1",
-      "type": "каяк",
-      "description": "cfegol,;p.['ip,;nkyujbyhvtgcrfxv ghjfhj,nubujvhcrgxts gdnmfghjgjfghfg dntdmjgfhfngbd fgnhjkxeafzxneicfdnhxumileksjc;nkhrmdijorkea,;scnoishguyferhd;imlleckvscp9sv75np8mr[xp'ao esuvron8i4ouer pg;itrvhcg/js;,f",
-      "id": 13
-    },
-    {
       "name": "111",
       "producer": "111",
       "year": 111,
       "price": 1111,
       "color": "11111",
-      "image": "1111111111111111111111",
+      "image": "https://m.economictimes.com/thumb/msid-100973926,width-1600,height-900,resizemode-4,imgsize-37490/what-is-angel-number-111-all-you-need-to-know.jpg",
       "type": "інше",
       "description": "11111",
       "id": 14
@@ -160,7 +138,7 @@
       "year": 2222222,
       "price": 222222222222,
       "color": "22222222",
-      "image": "22222222",
+      "image": "https://numerologysign.com/wp-content/uploads/2018/07/Angel-Number-222-Meaning.jpg.webp",
       "type": "весло",
       "description": "2222222222",
       "id": 15
@@ -171,7 +149,7 @@
       "year": 33333333,
       "price": 3333333333,
       "color": "33333333",
-      "image": "33333333",
+      "image": "https://numerologysign.com/wp-content/uploads/2018/07/Angel-Number-333-Meaning.jpg.webp",
       "type": "каяк",
       "description": "3333333",
       "id": 16
@@ -186,6 +164,50 @@
       "type": "хуй його знає",
       "description": "хуй його знає",
       "id": 17
+    },
+    {
+      "name": "ха-ха-ха",
+      "producer": "ха-ха-ха",
+      "year": 2023,
+      "price": 1001,
+      "color": "ха-ха-ха",
+      "image": "https://i.pinimg.com/550x/c8/09/63/c809631489ecca295dcb94a80bff404a.jpg",
+      "type": "ха-ха-ха",
+      "description": "ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-хаха-ха-хаха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха-ха",
+      "id": 18
+    },
+    {
+      "name": "трейлер",
+      "producer": "трейлер",
+      "year": 2023,
+      "price": 1000,
+      "color": "трейлер",
+      "image": "https://paddlingmagazine-images.s3.amazonaws.com/2020/03/23162920/Kayak-Trailers.jpg",
+      "type": "трейлер",
+      "description": "трейлер трейлер трейлер трейлер",
+      "id": 19
+    },
+    {
+      "name": "трейлер 1",
+      "producer": "трейлер 1",
+      "year": 4,
+      "price": 6,
+      "color": "blue",
+      "image": "https://hiking.earth/wp-content/uploads/2017/07/rear-view-of-finished-kayak-trailer.jpg.webp",
+      "type": "трейлер",
+      "description": "трейлер 1 трейлер 1 трейлер 1 трейлер 1 трейлер 1 трейлер 1",
+      "id": 20
+    },
+    {
+      "name": "трейлер 2",
+      "producer": "трейлер 2",
+      "year": 456456,
+      "price": 86486,
+      "color": "трейлер 2",
+      "image": "https://hiking.earth/wp-content/uploads/2017/07/finished-trailer.jpg",
+      "type": "трейлер",
+      "description": "трейлер 2 трейлер 2 трейлер 2 трейлер 2 трейлер 2",
+      "id": 21
     }
   ],
   "admin": [
@@ -197,7 +219,7 @@
         "Надія",
         "Ігор"
       ],
-      "email": "test_email",
+      "email": "kayakSport.gmail.com",
       "login": "",
       "password": "",
       "tel": [

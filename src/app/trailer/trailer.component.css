@@ -1,4 +1,52 @@
 .parent {
     display: flex;
+    padding: 10px;
     flex-wrap: wrap;
+    justify-content: center
+}
+
+/* .card {
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+} */
+
+.card {
+    width: 190px;
+    height: auto;
+    border-radius: 30px;
+    background: lightgrey;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+    transition-duration: 0.3s;
+}
+
+.card:hover {
+    background-color: white;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 30px;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.text_style {
+    font-weight: bold;
+    color: #333;
 }

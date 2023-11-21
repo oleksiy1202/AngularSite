@@ -2,12 +2,14 @@ import { Component, OnInit } from '@angular/core'
 import { DataService } from '../data.service'
 import Swal from 'sweetalert2'
 
+
 @Component({
   selector: 'app-list-card-admin',
   templateUrl: './list-card-admin.component.html',
   styleUrls: ['./list-card-admin.component.css']
 })
 export class ListCardAdminComponent implements OnInit {
+
   kayaks_list: any[] = []
   add_btn = false
   edit_log_pass = false
@@ -33,13 +35,15 @@ export class ListCardAdminComponent implements OnInit {
   constructor(private dataService: DataService) { }
   result_server: any
   admin_arr: any
+  // trailers_display = false
 
   ngOnInit() {
     this.dataService.getKayaks().subscribe(response => {
       this.result_server = response
       this.kayaks_list = this.result_server
-      // console.log(this.kayaks_list)
     })
+
+
 
     this.dataService.getAdminData().subscribe(response => {
       this.admin_arr = response
@@ -51,6 +55,7 @@ export class ListCardAdminComponent implements OnInit {
       // admin
     })
   }
+
 
   add_click_btn() {
     this.add_btn = !this.add_btn
@@ -111,8 +116,8 @@ export class ListCardAdminComponent implements OnInit {
 
     console.log(this.admin_arr[0]);
 
-   console.log(this.admin_arr);
-   
+    console.log(this.admin_arr);
+
     this.dataService.editAdmin(this.admin_arr).subscribe(
       response => {
         console.log('Дані оновлені', response);
@@ -129,8 +134,8 @@ export class ListCardAdminComponent implements OnInit {
 
   deleteKayak(id: number) {
     Swal.fire({
-      title: `Ти впевнений, що хочеш видалити каяк #${id}?`,
-      text: "Ви не зможете скасувати це дію!",
+      title: `Ви впевнені, що хочете видалити каяк #${id}?`,
+      text: "Цю дію неможливо буде скасувати!",
       icon: 'warning',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
@@ -139,19 +144,24 @@ export class ListCardAdminComponent implements OnInit {
       confirmButtonText: 'Так, видалити!'
     }).then((result) => {
       if (result.isConfirmed) {
-        this.dataService.getKayaks()
-        this.dataService.deleteKayak(id).subscribe((response) => {
+        this.dataService.deleteKayak(id).subscribe(() => {
           Swal.fire(
             'Видалено!',
             `Ваш файл ${id} видалено.`,
             'success'
           )
-          this.dataService.getKayaks()
+          // Оновіть список, отримавши дані знову
+          this.dataService.getKayaks().subscribe((data: any) => {
+            this.kayaks_list = data
+          })
         })
       }
     })
-    this.dataService.getKayaks()
   }
 
+
+  // getTrailersBTN() {
+  //   console.log(this.kayaks_list);
+  // }
 
 }

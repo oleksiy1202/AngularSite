@@ -13,6 +13,7 @@ import { LoginComponent } from './login/login.component';
 import { ListCardAdminComponent } from './list-card-admin/list-card-admin.component';
 import { FooterComponent } from './footer/footer.component';
 import { TrailerComponent } from './trailer/trailer.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { TrailerComponent } from './trailer/trailer.component';
     ListCardAdminComponent,
     FooterComponent,
     TrailerComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

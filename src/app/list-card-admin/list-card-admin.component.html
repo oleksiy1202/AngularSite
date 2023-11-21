@@ -4,14 +4,17 @@
         <button type="button" class="btn btn-danger" (click)="editLogin()">Зміна паролю та логіну</button>
     </div>
     <div *ngIf="edit_log_pass">
+        <h1 style="color: red; font-weight: bold; text-align: center;">Компонент на стадії розробки</h1>
+        <hr style="color: red;">
+        <h1 style="text-align: center; font-weight: bold;">{{email}}</h1><br>
         <form class="m-auto"
             style="width: 350px; background-color: azure; border-radius: 5px; color: red; padding: 10px; margin-top: 20px;">
+            <!-- <div class="mb-3">
+                <label for="email" class="form-label">Ваш email</label>
+                <input type="email" class="form-control" [(ngModel)]="email" id="email" name="email" [readonly]="true">
+            </div> -->
             <div class="mb-3">
-                <label for="email" class="form-label">Введіть новий email</label>
-                <input type="email" class="form-control" [(ngModel)]="email" id="email" name="email">
-            </div>
-            <div class="mb-3">
-                <label for="login" class="form-label">Введіть новий login</label>
+                <label for="login" class="form-label">Введіть login</label>
                 <input type="text" class="form-control" [(ngModel)]="login" id="login" name="login">
             </div>
             <div class="mb-3">
@@ -24,8 +27,10 @@
                     name="password_return">
             </div>
             <div class="mb-3">
-                <label for="firmName" class="form-label bg-blue">Введіть нову назву вашої компанії</label>
-                <input type="text" class="form-control" [(ngModel)]="firmName" id="firmName" name="firmName">
+                <label for="firmName" class="form-label bg-blue">Назва вашої
+                    компанії</label>
+                <input type="text" class="form-control" [(ngModel)]="firmName" id="firmName" name="firmName"
+                    [readonly]="true">
             </div>
             <div class="text-center">
                 <button type="button" class="btn btn-danger" (click)="edit_form_admin()">Змінити</button>
@@ -64,8 +69,10 @@
             </div>
             <div class="mb-1">
                 <label for="type" class="form-label">Type</label>
-                <input type="text" class="form-control" id="type" placeholder="каяк, весло або інше" [(ngModel)]="type" name="type">
+                <input type="text" class="form-control" id="type" placeholder="каяк, трейлер, весло або інше"
+                    [(ngModel)]="type" name="type">
             </div>
+
             <!-- description -->
             <div class="mb-1">
                 <label for="type" class="form-label">Description</label>
@@ -76,6 +83,13 @@
         </form>
     </div>
 </div>
+
+<!-- <h1 style="text-align: center;">
+    <button type="button" (click)="getTrailersBTN()">показати всі трейлери</button>
+</h1>
+<div *ngIf="trailers_display">всі трейлери</div><br> -->
+
+
 <div class="pt-4">
     <div *ngIf="card_admin" class="d-flex">
         <div class="qq">
