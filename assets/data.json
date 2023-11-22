@@ -1,0 +1,132 @@
+{
+    "kayaks": [
+        {
+            "id": 1,
+            "name": "Kayak Model X",
+            "producer": "KayakCo",
+            "year": 2023,
+            "price": 1200,
+            "color": "Blue",
+            "image": "https://connectkayaks.eu/wp-content/uploads/2021/09/POLO-K1-MODEL-X.png",
+            "type": "kayak"
+        },
+        {
+            "id": 2,
+            "name": "Kayak Model T",
+            "producer": "AdventureKayaks",
+            "year": 2022,
+            "price": 1500,
+            "color": "Red",
+            "image": "https://i.ebayimg.com/images/g/KqcAAOSwFLVkif1W/s-l1600.jpg",
+            "type": "kayak"
+        },
+        {
+            "id": 3,
+            "name": "Inflatable Kayak",
+            "producer": "AquaSports",
+            "year": 2023,
+            "price": 800,
+            "color": "Green",
+            "image": "https://m.media-amazon.com/images/I/61lm0cDhyYL._AC_UF1000,1000_QL80_.jpg",
+            "type": "kayak"
+        },
+        {
+            "id": 4,
+            "name": "Kayak Model",
+            "producer": "KayakCo",
+            "year": 2023,
+            "price": 1200,
+            "color": "Blue",
+            "image": "https://www.nain-boats.com/wp-content/uploads/2019/09/kayak-model-02.jpg",
+            "type": "kayak"
+        },
+        {
+            "id": 5,
+            "name": "Kayak Model Y",
+            "producer": "AdventureKayaks",
+            "year": 2022,
+            "price": 1500,
+            "color": "Red",
+            "image": "",
+            "type": "kayak"
+        },
+        {
+            "id": 6,
+            "name": "Inflatable Kayak",
+            "producer": "AquaSports",
+            "year": 2023,
+            "price": 800,
+            "color": "Green",
+            "image": "https://media.sketchfab.com/models/cda3354816af4a0aa1ca5cfee6c5dcd7/thumbnails/aaa7b199abe6440fa65598c2f6839d9b/e71c825b4b7c4f159a23fc6bf807c7d1.jpeg",
+            "type": "kayak"
+        },
+        {
+            "id": 7,
+            "name": "Oar Set 1",
+            "producer": "OarCraft",
+            "year": 2023,
+            "price": 250,
+            "color": "Brown",
+            "image": "https://m.media-amazon.com/images/I/71Say+d9KZL._AC_UF350,350_QL80_.jpg",
+            "type": "kayak"
+        },
+        {
+            "id": 8,
+            "name": "Oar Set 2",
+            "producer": "RiverPaddle",
+            "year": 2022,
+            "price": 280,
+            "color": "Black",
+            "image": "https://surfdeal.ch/media/7c/d1/13/1681714265/FIT%20OCEAN%202-in-1%20iSUP%20and%20Kayak%20Paddle%20%2B%20Kayak%20Sitz%20Deluxe.jpg",
+            "type": "kayak"
+        },
+        {
+            "id": 9,
+            "name": "Oar Set 3",
+            "producer": "StreamMasters",
+            "year": 2023,
+            "price": 220,
+            "color": "Blue",
+            "image": "https://aqua-storm.com.ua/image/cache/catalog/products/accessories/veslo-550x550.jpg",
+            "type": "kayak"
+        },
+        {
+            "id": 10,
+            "name": "Paddle Model A",
+            "producer": "PaddleTech",
+            "year": 2023,
+            "price": 150,
+            "color": "Black",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-483979182-1660076998.jpg",
+            "type": "kayak"
+        },
+        {
+            "id": 11,
+            "name": "Paddle Model B",
+            "producer": "OutdoorGear",
+            "year": 2022,
+            "price": 120,
+            "color": "Yellow",
+            "image": "https://hyside.com/wp-content/uploads/LIMITED-EDITION-COLORS.jpg",
+            "type": "kayak"
+        },
+        {
+            "id": 12,
+            "name": "Paddle Model C",
+            "producer": "AdventurePaddles",
+            "year": 2023,
+            "price": 180,
+            "color": "Red",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-7Uw1keDZbSf8LLKB11jr2Qf6XJWx2ngXslN6GVVBQ4OZdVS3HpZQk1Z94IWuG37SJWM&usqp=CAU",
+            "type": "kayak"
+        }
+    ],
+    "admin": [
+        {
+            "name": "Христина",
+            "login": "q",
+            "password": "q",
+            "type": "admin"
+        }
+    ]
+}
